@@ -1,0 +1,68 @@
+.hero{
+    height:100vh;
+    background: #6f73a6;
+    display: flex;
+}
+.hero-left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    padding-left: 50px;
+    line-height: 1.1;
+    font-family: 'emoji';
+}
+.hero-left h2{
+    color:white;
+    font-size: 10px;
+    
+}
+.hero-left p{
+    color:white;
+    font-size: 40px;
+    
+}
+.hero-hand-icon{
+    display:flex;
+    align-items: center;
+    gap:30px;
+}
+.hero-hand-icon img{
+    width:80px;
+}
+.hero-latest-btn{
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+    gap:15px;
+    width:250px;
+    height:50px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #ff4141;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hero-right > img{
+    width:655px;
+    height:100vh;
+    overflow: hidden;
+    flex:1;
+    padding-top: 0px;
+    margin-right: 0px;
+}
+/* Add these styles to your existing CSS file, or create a new one for MeditationQuotes */
+
+/* Adjust the styles as needed */
+
+  blockquote footer {
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 50%;
+  }
+
+  

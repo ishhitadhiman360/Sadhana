@@ -1,0 +1,59 @@
+.offers{
+      width:90%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    padding:0px 100px;
+    margin-bottom: 150px;
+    margin-top: 70px;
+}
+.quote{
+    flex:7;
+    display: flex;
+    background: linear-gradient(180deg, #8750cc85 0%,#e1ffea22 60%);
+    flex-direction: column;
+    justify-content: center; 
+    padding: 30px;
+    font-size: 30px;
+    margin-top:20px;
+    margin-left: -60px;
+    width: 100rem;
+    z-index: 1;
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+   
+}
+.offers-left h1{
+    color:#171717;
+    font-size: 50px;
+    font-weight: 600;
+}
+.offers-left p{
+    color:#171717;
+    font-size: 22px;
+    font-weight: 400;
+}
+.offers-left button{
+    width: 220px;
+    height:60px;
+    border-radius: 35px;
+    background: #ff4141;
+    border:none;
+    color:white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top:30px;
+    cursor:pointer;
+}
+.quote-image{
+    flex:1;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.quote-image img{
+    width:400px;
+    scale: 1.6;
+}

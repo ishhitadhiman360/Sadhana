@@ -1,0 +1,28 @@
+#form{
+    /* background-color: aqua; */
+    text-align: center;
+}
+.questionBox{
+    margin-top: 1rem;
+}
+.optionBox{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.optionBox label{
+    display: inline;
+    margin-right: 3rem;
+}
+.button:active {
+    display: none;
+  }
+.image {
+    max-width: '100px';
+    max-height:  '100px';
+}
+.image:hover{
+    transform:scale(1.05);
+     transition:0.8s;
+}
